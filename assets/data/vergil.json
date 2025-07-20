@@ -1,0 +1,118 @@
+{
+    "victory": {
+        "sheet": "assets/sprites/vergil/victory-sheet.png",
+        "frame_width": 75,
+        "frame_height": 103,
+        "scale": 1.6,
+        "offset": [10, 0], "flipped_offset": [10, 0],
+        "frames": 1,
+        "interval": 250,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 75,
+        "rect_height": 103
+    },
+    "taunt": {
+        "sheet": "assets/sprites/vergil/taunt-sheet.png",
+        "frame_width": 86,
+        "frame_height": 113,
+        "scale": 1.6,
+        "offset": [10, 0], "flipped_offset": [10, 0],
+        "frames": 8,
+        "interval": 250,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 86,
+        "rect_height": 113
+    },
+    "idle": {
+        "sheet": "assets/sprites/vergil/idle-sheet.png",
+        "frame_width": 84, "frame_height": 110,
+        "scale": 1.7, "offset": [5, 0], "flipped_offset": [10, 0],
+        "frames": 6, "interval": 250,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 110,
+        "rect_height": 195
+    },
+    "walk": {
+        "sheet": "assets/sprites/vergil/walk-sheet.png",
+        "frame_width": 93, "frame_height": 106,
+        "scale": 1.7, "offset": [10, 0], "flipped_offset": [10, 0],
+        "frames": 8, "interval": 125,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 130,
+        "rect_height": 190
+    },
+    "run": {
+        "sheet": "assets/sprites/vergil/run-sheet.png",
+        "frame_width": 229, "frame_height": 166,
+        "scale": 1.1, "offset": [50, 0], "flipped_offset": [10, 0],
+        "frames": 12, "interval": 75,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 152,
+        "rect_height": 182
+    },
+    "jump": {
+        "sheet": "assets/sprites/vergil/jump-sheet.png",
+        "frame_width": 127, "frame_height": 126,
+        "scale": 1.8, "offset": [25, 25], "flipped_offset": [10, 0],
+        "frames": 4, "interval": 150,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 130,
+        "rect_height": 190
+    },
+    "block": {
+        "sheet": "assets/sprites/vergil/block-sheet.png",
+        "frame_width": 100, "frame_height": 92,
+        "scale": 1.7, "offset": [0, -18], "flipped_offset": [10, 0],
+        "frames": 1, "interval": 80,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 170,
+        "rect_height": 188
+    },
+    "attack1": {
+        "sheet": "assets/sprites/vergil/attack1-sheet.png",
+        "frame_width": 176, "frame_height": 145,
+        "scale": 1.7, "offset": [70, 30], "flipped_offset": [10, 0],
+        "frames": 28, "interval": 30,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 40,
+        "rect_height": 40
+    },
+    "attack2": {
+        "sheet": "assets/sprites/vergil/attack2-sheet.png",
+        "frame_width": 361, "frame_height": 170,
+        "scale": 1.7, "offset": [140, 25], "flipped_offset": [10, 0],
+        "frames": 26, "interval": 30,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 40,
+        "rect_height": 40
+    },
+    "hit": {
+        "sheet": "assets/sprites/vergil/hit-sheet.png",
+        "frame_width": 90, "frame_height": 106,
+        "scale": 1.8, "offset": [0, 0], "flipped_offset": [10, 0],
+        "frames": 2, "interval": 250,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 40,
+        "rect_height": 40
+    },
+    "death": {
+        "sheet": "assets/sprites/vergil/death-sheet.png",
+        "frame_width": 111, "frame_height": 85,
+        "scale": 1.7, "offset": [60, -41], "flipped_offset": [10, 0],
+        "frames": 2, "interval": 500,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0],
+        "rect_width": 40,
+        "rect_height": 40
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "victory": {
+        "sheet": "assets/sprites/dante/victory-sheet.png",
+        "frame_width": 94, "frame_height": 123,
+        "offset": [25, 9], "flipped_offset": [0, 0],
+        "frames": 1, "interval": 250, "scale": 1.65,
+        "rect_width": 110, "rect_height": 190,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    },
+    "taunt": {
+        "sheet": "assets/sprites/dante/taunt-sheet.png",
+        "frame_width": 89, "frame_height": 118, "scale": 1.6,
+        "offset": [6, 0], "flipped_offset": [-6, 0],
+        "rect_width": 145, "rect_height": 190,
+        "frames": 8, "interval": 250,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [12, 0]
+    },
+    "idle": {
+        "sheet": "assets/sprites/dante/idle-sheet.png",
+        "frame_width": 57, "frame_height": 104, "scale": 1.8,
+        "offset": [-3, 0], "flipped_offset": [-2, 0],
+        "rect_width": 110, "rect_height": 190,
+        "frames": 6, "interval": 250,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    },
+    "walk": {
+        "sheet": "assets/sprites/dante/walk-sheet.png",
+        "frame_width": 69, "frame_height": 102, "scale": 1.8,
+        "offset": [0, 0], "flipped_offset": [10, 0],
+        "rect_width": 130, "rect_height": 190,
+        "frames": 8, "interval": 125,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    },
+    "run": {
+        "sheet": "assets/sprites/dante/run-sheet.png",
+        "frame_width": 197, "frame_height": 151, "scale": 1,
+        "offset": [25, -30], "flipped_offset": [-10, -30],
+        "rect_width": 152, "rect_height": 182,
+        "frames": 12, "interval": 75,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    },
+    "jump": {
+        "sheet": "assets/sprites/dante/jump-sheet.png",
+        "frame_width": 90, "frame_height": 137, "scale": 1.8,
+        "offset": [10, 38], "flipped_offset": [10, 0],
+        "rect_width": 130, "rect_height": 190,
+        "frames": 4, "interval": 150,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    },
+    "block": {
+        "sheet": "assets/sprites/dante/block-sheet.png",
+        "frame_width": 83, "frame_height": 114, "scale": 1.6,
+        "offset": [0, -5], "flipped_offset": [10, 0],
+        "rect_width": 135, "rect_height": 192,
+        "frames": 1, "interval": 80,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    },
+    "attack1": {
+        "sheet": "assets/sprites/dante/attack1-sheet.png",
+        "frame_width": 262, "frame_height": 188, "scale": 1.6,
+        "offset": [60, 60], "flipped_offset": [-20, 0],
+        "rect_width": 300, "rect_height": 192,
+        "frames": 19, "interval": 28,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    },
+    "attack2": {
+        "sheet": "assets/sprites/dante/attack2-sheet.png",
+        "frame_width": 398, "frame_height": 242, "scale": 1.65,
+        "offset": [40, 40], "flipped_offset": [10, 0],
+        "rect_width": 400, "rect_height": 242,
+        "frames": 16, "interval": 30,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    },
+    "hit": {
+        "sheet": "assets/sprites/dante/hit-sheet.png",
+        "frame_width": 94, "frame_height": 108, "scale": 1.6,
+        "offset": [0, -12], "flipped_offset": [10, 0],
+        "rect_width": 110, "rect_height": 190,
+        "frames": 2, "interval": 250,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    },
+    "death": {
+        "sheet": "assets/sprites/dante/death-sheet.png",
+        "frame_width": 126, "frame_height": 100, "scale": 1.7,
+        "offset": [0, -20], "flipped_offset": [10, 0],
+        "rect_width": 40, "rect_height": 40,
+        "frames": 2, "interval": 500,
+        "flipped_rect_offset": [0, 0],
+        "rect_offset": [0, 0]
+    }   
+}
