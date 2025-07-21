@@ -12,7 +12,7 @@
         "sheet": "assets/sprites/dante/taunt-sheet.png",
         "frame_width": 89, "frame_height": 118,
         "offset": [6, 0], "flipped_offset": [-6, 0],
-        "frames": 8, "interval": 250, "scale": 1.6,
+        "frames": 8, "interval": 190, "scale": 1.6,
         "rect_width": 145, "rect_height": 190,
         "flipped_rect_offset": [0, 0],
         "rect_offset": [12, 0]
@@ -58,9 +58,9 @@
         "frame_width": 83, "frame_height": 114,
         "offset": [-1, -5], "flipped_offset": [-1, -5],
         "frames": 1, "interval": 80, "scale": 1.6,
-        "rect_width": 135, "rect_height": 192,
-        "flipped_rect_offset": [0, 0],
-        "rect_offset": [0, 0]
+        "rect_width": 135, "rect_height": 178,
+        "flipped_rect_offset": [0, -15],
+        "rect_offset": [0, -15]
     },
     "attack1": {
         "sheet": "assets/sprites/dante/attack1-sheet.png",

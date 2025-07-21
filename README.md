@@ -12,10 +12,10 @@ Este projeto foi desenvolvido como atividade prática da disciplina de **Tópico
 
 Para a criação e edição dos recursos visuais utilizados no jogo, foram utilizadas as seguintes ferramentas:
 
-* [**Aseprite**](https://www.aseprite.org/) — edição e animação de sprites.
-* [**Piskel**](https://www.piskelapp.com/) — ferramenta online para criação e edição de pixel art.
-* [**JPEXS Free Flash Decompiler**](https://github.com/jindrapetrik/jpexs-decompiler) — utilizado para extrair sprites de um mod do jogo **Super Smash Flash 2**.
-* [**Input-Button-Sprite-Generator**](https://github.com/NetroScript/Input-Button-Sprite-Generator/tree/master) — ferramenta para gerar imagens representando os botões do teclado utilizados no jogo.
+* [**Aseprite**](https://www.aseprite.org/) — edição e animação de sprites;
+* [**Piskel**](https://www.piskelapp.com/) — ferramenta online para criação e edição de pixel art;
+* [**JPEXS Free Flash Decompiler**](https://github.com/jindrapetrik/jpexs-decompiler) — utilizado para extrair sprites de um mod do jogo **Super Smash Flash 2**;
+* [**Input-Button-Sprite-Generator**](https://github.com/NetroScript/Input-Button-Sprite-Generator/tree/master) — ferramenta para gerar imagens representando os botões do teclado utilizados no jogo;
 * [**Canva**](https://www.canva.com/) — utilizado para edição das imagens de fundo com instruções de controle.
 
 ## Inspiração

@@ -126,10 +126,14 @@ class Fighter():
                         self.jump = True
 
                     if key[pygame.K_KP1]:
+                        self.flip = target.rect.centerx < self.rect.centerx
+                        self.manual_flip = None
                         self.attack(target, "attack1")
                         self.attack_type = 1
 
                     if key[pygame.K_KP2]:
+                        self.flip = target.rect.centerx < self.rect.centerx
+                        self.manual_flip = None
                         self.attack(target, "attack2")
                         self.attack_type = 2
 
@@ -306,7 +310,7 @@ class Fighter():
         img = pygame.transform.flip(self.image, self.flip, False)
         surface.blit(img, (self.rect.x - (offset[0] * scale), self.rect.y - (offset[1] * scale)))
 
-        pygame.draw.rect(surface, (255, 0, 0), self.hurtbox, 2)
+        # pygame.draw.rect(surface, (255, 0, 0), self.hurtbox, 2)
 
     def start_taunt(self):
 

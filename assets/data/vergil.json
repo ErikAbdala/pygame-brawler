@@ -2,35 +2,35 @@
     "victory": {
         "sheet": "assets/sprites/vergil/victory-sheet.png",
         "frame_width": 75, "frame_height": 103,
-        "offset": [10, 0], "flipped_offset": [10, 0],
-        "frames": 1, "interval": 250, "scale": 1.6,
-        "rect_width": 75, "rect_height": 103,
+        "offset": [18, -2], "flipped_offset": [-5, -2],
+        "frames": 1, "interval": 250, "scale": 1.8,
+        "rect_width": 110, "rect_height": 190,
         "flipped_rect_offset": [0, 0],
         "rect_offset": [0, 0]
     },
     "taunt": {
         "sheet": "assets/sprites/vergil/taunt-sheet.png",
         "frame_width": 86, "frame_height": 113,
-        "offset": [10, 0], "flipped_offset": [10, 0],
-        "frames": 8, "interval": 250, "scale": 1.6,
-        "rect_width": 86, "rect_height": 113,
+        "offset": [5, 3], "flipped_offset": [7, 3],
+        "frames": 8, "interval": 190, "scale": 1.7,
+        "rect_width": 110, "rect_height": 190,
         "flipped_rect_offset": [0, 0],
         "rect_offset": [0, 0]
     },
     "idle": {
         "sheet": "assets/sprites/vergil/idle-sheet.png",
         "frame_width": 84, "frame_height": 110,
-        "offset": [10, 0], "flipped_offset": [5, 0],
+        "offset": [13, 0], "flipped_offset": [5, 0],
         "frames": 6, "interval": 250, "scale": 1.7,
         "rect_width": 110, "rect_height": 190,
         "flipped_rect_offset": [0, 0],
-        "rect_offset": [0, 2]
+        "rect_offset": [0, 0]
     },
     "walk": {
         "sheet": "assets/sprites/vergil/walk-sheet.png",
         "frame_width": 93, "frame_height": 106,
-        "offset": [10, 0], "flipped_offset": [10, 0],
-        "frames": 8, "interval": 125, "scale": 1.7,
+        "offset": [15, -2], "flipped_offset": [4, -2],
+        "frames": 8, "interval": 125, "scale": 1.75,
         "rect_width": 130, "rect_height": 190,
         "flipped_rect_offset": [0, 0],
         "rect_offset": [0, 0]
@@ -38,64 +38,64 @@
     "run": {
         "sheet": "assets/sprites/vergil/run-sheet.png",
         "frame_width": 229, "frame_height": 166,
-        "offset": [50, 0], "flipped_offset": [10, 0],
+        "offset": [50, 0], "flipped_offset": [52, 0],
         "frames": 12, "interval": 75, "scale": 1.1,
-        "rect_width": 152, "rect_height": 182,
-        "flipped_rect_offset": [0, 0],
-        "rect_offset": [0, 0]
+        "rect_width": 160, "rect_height": 164,
+        "flipped_rect_offset": [10, -20],
+        "rect_offset": [10, -20]
     },
     "jump": {
         "sheet": "assets/sprites/vergil/jump-sheet.png",
         "frame_width": 127, "frame_height": 126,
-        "offset": [25, 25], "flipped_offset": [10, 0],
+        "offset": [30, 13], "flipped_offset": [24, 26],
         "frames": 4, "interval": 150, "scale": 1.8,
-        "rect_width": 130, "rect_height": 190,
-        "flipped_rect_offset": [0, 0],
+        "rect_width": 130, "rect_height": 202,
+        "flipped_rect_offset": [0, 25],
         "rect_offset": [0, 0]
     },
     "block": {
         "sheet": "assets/sprites/vergil/block-sheet.png",
         "frame_width": 100, "frame_height": 92,
-        "offset": [0, -18], "flipped_offset": [10, 0],
+        "offset": [0, -18], "flipped_offset": [0, -18],
         "frames": 1, "interval": 80, "scale": 1.7,
-        "rect_width": 170, "rect_height": 188,
-        "flipped_rect_offset": [0, 0],
-        "rect_offset": [0, 0]
+        "rect_width": 170, "rect_height": 160,
+        "flipped_rect_offset": [0, -28],
+        "rect_offset": [0, -28]
     },
     "attack1": {
         "sheet": "assets/sprites/vergil/attack1-sheet.png",
         "frame_width": 176, "frame_height": 145,
-        "offset": [70, 30], "flipped_offset": [10, 0],
-        "frames": 28, "interval": 30, "scale": 1.7,
-        "rect_width": 270, "rect_height": 190,
-        "flipped_rect_offset": [30, 0],
-        "rect_offset": [20, 0]
+        "offset": [12, 32], "flipped_offset": [80, 32],
+        "frames": 28, "interval": 18, "scale": 1.7,
+        "rect_width": 280, "rect_height": 220,
+        "flipped_rect_offset": [135, 30],
+        "rect_offset": [0, 30]
     },
     "attack2": {
         "sheet": "assets/sprites/vergil/attack2-sheet.png",
         "frame_width": 361, "frame_height": 170,
-        "offset": [140, 25], "flipped_offset": [10, 0],
-        "frames": 26, "interval": 30, "scale": 1.7,
-        "rect_width": 40, "rect_height": 40,
-        "flipped_rect_offset": [0, 0],
-        "rect_offset": [0, 0]
+        "offset": [145, 25], "flipped_offset": [130, 25],
+        "frames": 26, "interval": 18, "scale": 1.7,
+        "rect_width": 265, "rect_height": 220,
+        "flipped_rect_offset": [120, 30],
+        "rect_offset": [0, 30]
     },
     "hit": {
         "sheet": "assets/sprites/vergil/hit-sheet.png",
         "frame_width": 90, "frame_height": 106,
         "offset": [0, 0], "flipped_offset": [10, 0],
         "frames": 2, "interval": 250, "scale": 1.8,
-        "rect_width": 40, "rect_height": 40,
-        "flipped_rect_offset": [0, 0],
+        "rect_width": 165, "rect_height": 190,
+        "flipped_rect_offset": [20, 0],
         "rect_offset": [0, 0]
     },
     "death": {
         "sheet": "assets/sprites/vergil/death-sheet.png",
         "frame_width": 111, "frame_height": 85,
-        "offset": [60, -41], "flipped_offset": [10, 0],
+        "offset": [0, -41], "flipped_offset": [30, -41],
         "frames": 2, "interval": 500, "scale": 1.7,
-        "rect_width": 40, "rect_height": 40,
-        "flipped_rect_offset": [0, 0],
-        "rect_offset": [0, 0]
+        "rect_width": 192, "rect_height": 144,
+        "flipped_rect_offset": [54, -70],
+        "rect_offset": [0, -70]
     }
 }
