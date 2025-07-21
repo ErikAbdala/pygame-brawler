@@ -49,7 +49,7 @@ class Fighter():
 
             if self.player == 1:
 
-                if key[pygame.K_SPACE]:
+                if key[pygame.K_r]:
                     self.blocking = True
                 else:
                     self.blocking = False
@@ -101,27 +101,27 @@ class Fighter():
 
                 if self.blocking == False:
 
-                    if key[pygame.K_LEFT]:
+                    if key[pygame.K_KP4]:
                         dx = -SPEED - 4
                         self.running = True
                         self.manual_flip = True
 
-                    if key[pygame.K_RIGHT]:
+                    if key[pygame.K_KP6]:
                         dx = SPEED + 4
                         self.running = True
                         self.manual_flip = False
 
-                    if key[pygame.K_LEFT] & key[pygame.K_DOWN]:
+                    if key[pygame.K_KP4] & key[pygame.K_KP5]:
                         dx = -SPEED
                         self.walking = True
                         self.manual_flip = True
 
-                    if key[pygame.K_RIGHT] & key[pygame.K_DOWN]:
+                    if key[pygame.K_KP6] & key[pygame.K_KP5]:
                         dx = SPEED
                         self.walking = True
                         self.manual_flip = False
 
-                    if key[pygame.K_UP] and self.jump is False:
+                    if key[pygame.K_KP8] and self.jump is False:
                         self.vel_y = -30
                         self.jump = True
 

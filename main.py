@@ -215,7 +215,7 @@ def show_controls_screen():
     Player 1 presses 'T'; Player 2 presses 'NumPad 1'.
     """
 
-    controls_img = pygame.image.load("assets/images/controls/controls.png").convert()
+    controls_img = pygame.image.load("assets/images/controls/controls-alt.png").convert()
     controls_img = pygame.transform.scale(controls_img, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
     ready_p1 = False
